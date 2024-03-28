@@ -1,0 +1,43 @@
+.Login-container {
+  background-color: #0068c6;
+  width: 40%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-bottom: 4vw;
+}
+
+.login-title {
+  color: white;
+  border-bottom: 2px solid white;
+  padding-bottom: 20px;
+}
+
+.title {
+  color: white;
+}
+
+.input {
+  min-width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.button-container{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button{
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #0068c6;
+}
