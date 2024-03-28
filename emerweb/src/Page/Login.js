@@ -4,9 +4,9 @@ function Login(){
     return(
         <div className="Login-container">
             <h1 className="login-title">Login</h1>
-            <p className='title'>Email</p>
+            <label className='title'>Email</label>
             <input placeholder="Email" className="input"/>
-            <p className='title'>Password</p>
+            <label className='title'>Password</label>
             <input placeholder="Password" className="input"/>
             <div className="button-container">
                 <button className="button">Login</button>
