@@ -2,15 +2,12 @@ import "../css/Home.css"
 import {FaRegNewspaper} from "react-icons/fa6"
 import { CgProfile } from "react-icons/cg";
 import { BsClipboard2Data } from "react-icons/bs";
+import Navbar from "../components/Navbar";
 
 function Home(){
     return(
         <body className="home-body">
-            <div className="home-navbar">
-                <div>Profile</div>
-                <div>DashBoard</div>
-                <div>Blog</div>
-            </div>
+           <Navbar/>
             <div className="home-container">
                 <h1 className="home-title">EMER Management</h1>
                 <div className="card-list">
