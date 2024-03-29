@@ -39,7 +39,16 @@
 }
 
 .card:hover{
-    border: 1px solid white;
-    background-color: rgba(0, 104, 198,0.8) ;
-    color: white;
+    box-shadow: 3px 3px 10px rgba(97,148,190,.3);
+    transition: all .3s ease-in-out;
 }
+
+
+.IconBg{
+    background-color: white;
+}
+
+.Icon{
+    color: #0068c6;
+}
+
