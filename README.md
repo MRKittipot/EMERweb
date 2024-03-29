@@ -1,2 +1,2 @@
 # EMERweb
-EMERweb for Admin created by Group 1. 
+EMERweb for Admin created by Halffull Team, Group 1. 
