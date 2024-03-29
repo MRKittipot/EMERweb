@@ -1,0 +1,45 @@
+.home-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50,-50);
+}
+
+.home-navbar {
+  background-color: #0068c6;
+  min-width: 18%;
+  max-width: 18%;
+  min-height: 100vh;
+}
+
+.home-container{
+    width: 100%;
+}
+
+.home-title{
+    color:#0068c6;
+    text-align: center;
+}
+
+.card-list{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.card{
+    border : 1px solid #0068c6;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    font-size: 22px;
+}
+
+.card:hover{
+    border: 1px solid white;
+    background-color: rgba(0, 104, 198,0.8) ;
+    color: white;
+}
